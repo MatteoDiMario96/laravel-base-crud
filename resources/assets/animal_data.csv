@@ -1,0 +1,21 @@
+common_name,scientific_name,class,habitat,geographical_distribution,high_max,weigh_max,note,timestamps
+Lion,Panthera leo,Mammalia,Savanna,Sub-Saharan Africa,120,190,Known as the king of the jungle.,2024-07-22 11:28:24.085445
+Elephant,Loxodonta africana,Mammalia,Forest,"Sub-Saharan Africa, South Asia",350,6000,The largest land animal.,2024-07-22 11:28:24.085454
+Penguin,Aptenodytes forsteri,Aves,Antarctic,Antarctica,120,45,Flightless bird adapted to life in the water.,2024-07-22 11:28:24.085456
+Giraffe,Giraffa camelopardalis,Mammalia,Savanna,Sub-Saharan Africa,600,1600,Tallest living terrestrial animal.,2024-07-22 11:28:24.085457
+Koala,Phascolarctos cinereus,Mammalia,Forest,Eastern Australia,85,15,Marsupial native to Australia.,2024-07-22 11:28:24.085459
+Polar Bear,Ursus maritimus,Mammalia,Arctic,Arctic Circle,160,700,Large bear native to the Arctic.,2024-07-22 11:28:24.085460
+Kangaroo,Macropus rufus,Mammalia,Savanna,Australia,200,90,Largest marsupial in the world.,2024-07-22 11:28:24.085461
+Tiger,Panthera tigris,Mammalia,Forest,Asia,120,310,The largest species of cat.,2024-07-22 11:28:24.085463
+Panda,Ailuropoda melanoleuca,Mammalia,Forest,Central China,90,160,Known for its distinctive black and white coloring.,2024-07-22 11:28:24.085464
+Bald Eagle,Haliaeetus leucocephalus,Aves,Forest,North America,100,6,National bird of the United States.,2024-07-22 11:28:24.085466
+Wolf,Canis lupus,Mammalia,Forest,"North America, Eurasia",85,80,Social animals known to live in packs.,2024-07-22 11:28:24.085467
+Great White Shark,Carcharodon carcharias,Chondrichthyes,Ocean,Worldwide,600,1100,One of the largest predatory fish.,2024-07-22 11:28:24.085469
+Komodo Dragon,Varanus komodoensis,Reptilia,Forest,Indonesia,300,70,The largest living species of lizard.,2024-07-22 11:28:24.085470
+Hippopotamus,Hippopotamus amphibius,Mammalia,River,Sub-Saharan Africa,150,1500,Third-largest land mammal by weight.,2024-07-22 11:28:24.085472
+Rhinoceros,Rhinocerotidae,Mammalia,Savanna,"Africa, South Asia",190,2300,Known for their large horns.,2024-07-22 11:28:24.085474
+Gorilla,Gorilla beringei,Mammalia,Forest,Central Africa,180,220,Largest living primates.,2024-07-22 11:28:24.085476
+Cheetah,Acinonyx jubatus,Mammalia,Savanna,"Africa, Iran",90,65,Fastest land animal.,2024-07-22 11:28:24.085478
+Orangutan,Pongo pygmaeus,Mammalia,Forest,"Borneo, Sumatra",150,100,Known for their intelligence and use of tools.,2024-07-22 11:28:24.085496
+Blue Whale,Balaenoptera musculus,Mammalia,Ocean,Worldwide,3000,200000,Largest animal known to have ever existed.,2024-07-22 11:28:24.085498
+Red Panda,Ailurus fulgens,Mammalia,Forest,"Eastern Himalayas, Southwestern China",60,6,Known for their reddish-brown fur and bushy tails.,2024-07-22 11:28:24.085500
