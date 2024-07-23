@@ -19,4 +19,22 @@ class AnimalController extends Controller
         return view('pages.animals.show', compact('animal'));
 
     }
+
+    public function create(){;
+
+        return view('pages.animals.create');
+
+    }
+
+    public function store(Request $request){;
+
+        $data = $request->all();
+
+        $newAnimal = new Animals($data);
+        $newAnimal->save();
+        return redirect(route('pages.animals.show', $newAnimal));
+
+
+
+    }
 }
