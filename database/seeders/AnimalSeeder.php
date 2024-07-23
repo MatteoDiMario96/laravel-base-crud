@@ -17,18 +17,21 @@ class AnimalSeeder extends Seeder
     {
         $animalsData = Helpers::getCsvInfo(__DIR__ . '/../../resources/assets/animal_data.csv');
         foreach ($animalsData as $index => $animal) {
+            // var_dump($animalsData);
             if ($index > 0) {
+                var_dump($animal);
                 $newAnimal = new Animals();
-                $newAnimal->common_name = $animal[1];
-                $newAnimal->scientific_name = $animal[2];
-                $newAnimal->class = $animal[3];
-                $newAnimal->habitat = $animal[4];
-                $newAnimal->geographical_distribution = $animal[5];
-                $newAnimal->high_max = $animal[6];
-                $newAnimal->weigh_max = $animal[7];
-                $newAnimal->note = $animal[8];
-                $newAnimal->created_at = $animal[9];
+                $newAnimal->common_name = $animal[0];
+                $newAnimal->scientific_name = $animal[1];
+                $newAnimal->class = $animal[2];
+                $newAnimal->habitat = $animal[3];
+                $newAnimal->geographical_distribution = $animal[4];
+                $newAnimal->high_max = $animal[5];
+                $newAnimal->weigh_max = $animal[6];
+                $newAnimal->note = $animal[7];
+                $newAnimal->created_at = $animal[8];
                 $newAnimal->save();
+
             }
         }
 
