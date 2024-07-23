@@ -30,6 +30,7 @@ class AnimalSeeder extends Seeder
                 $newAnimal->weigh_max = $animal[6];
                 $newAnimal->note = $animal[7];
                 $newAnimal->created_at = $animal[8];
+                $newAnimal->image_url = $animal[9];
                 $newAnimal->save();
 
             }

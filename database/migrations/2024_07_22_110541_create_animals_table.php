@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('habitat', 100);
             $table->string('geographical_distribution', 100);
             $table->smallInteger('high_max');
-            $table->smallInteger('weigh_max');
+            $table->mediumInteger('weigh_max');
             $table->text('note');
             $table->timestamps();
         });

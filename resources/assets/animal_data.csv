@@ -1,21 +1,21 @@
-common_name,scientific_name,class,habitat,geographical_distribution,high_max,weigh_max,note,created_at
-Lion,Panthera leo,Mammalia,Savanna,Sub-Saharan Africa,120,190,Known as the king of the jungle.,2024-07-22 11:28:24.085445
-Elephant,Loxodonta africana,Mammalia,Forest,Sub-Saharan Africa,350,6000,The largest land animal.,2024-07-22 11:28:24.085454
-Penguin,Aptenodytes forsteri,Aves,Antarctic,Antarctica,120,45,Flightless bird adapted to life in the water.,2024-07-22 11:28:24.085456
-Giraffe,Giraffa camelopardalis,Mammalia,Savanna,Sub-Saharan Africa,600,1600,Tallest living terrestrial animal.,2024-07-22 11:28:24.085457
-Koala,Phascolarctos cinereus,Mammalia,Forest,Eastern Australia,85,15,Marsupial native to Australia.,2024-07-22 11:28:24.085459
-Polar Bear,Ursus maritimus,Mammalia,Arctic,Arctic Circle,160,700,Large bear native to the Arctic.,2024-07-22 11:28:24.085460
-Kangaroo,Macropus rufus,Mammalia,Savanna,Australia,200,90,Largest marsupial in the world.,2024-07-22 11:28:24.085461
-Tiger,Panthera tigris,Mammalia,Forest,Asia,120,310,The largest species of cat.,2024-07-22 11:28:24.085463
-Panda,Ailuropoda melanoleuca,Mammalia,Forest,Central China,90,160,Known for its distinctive black and white coloring.,2024-07-22 11:28:24.085464
-Bald Eagle,Haliaeetus leucocephalus,Aves,Forest,North America,100,6,National bird of the United States.,2024-07-22 11:28:24.085466
-Wolf,Canis lupus,Mammalia,Forest,North America,85,80,Social animals known to live in packs.,2024-07-22 11:28:24.085467
-Great White Shark,Carcharodon carcharias,Chondrichthyes,Ocean,Worldwide,600,1100,One of the largest predatory fish.,2024-07-22 11:28:24.085469
-Komodo Dragon,Varanus komodoensis,Reptilia,Forest,Indonesia,300,70,The largest living species of lizard.,2024-07-22 11:28:24.085470
-Hippopotamus,Hippopotamus amphibius,Mammalia,River,Sub-Saharan Africa,150,1500,Third-largest land mammal by weight.,2024-07-22 11:28:24.085472
-Rhinoceros,Rhinocerotidae,Mammalia,Savanna,Africa,190,2300,Known for their large horns.,2024-07-22 11:28:24.085474
-Gorilla,Gorilla beringei,Mammalia,Forest,Central Africa,180,220,Largest living primates.,2024-07-22 11:28:24.085476
-Cheetah,Acinonyx jubatus,Mammalia,Savanna,Africa,90,65,Fastest land animal.,2024-07-22 11:28:24.085478
-Orangutan,Pongo pygmaeus,Mammalia,Forest,Borneo,150,100,Known for their intelligence and use of tools.,2024-07-22 11:28:24.085496
-Blue Whale,Balaenoptera musculus,Mammalia,Ocean,Worldwide,3000,20000,Largest animal known to have ever existed.,2024-07-22 11:28:24.085498
-Red Panda,Ailurus fulgens,Mammalia,Forest,Eastern Himalayas,60,6,Known for their reddish-brown fur and bushy tails.,2024-07-22 11:28:24.085500
+common_name,scientific_name,class,habitat,geographical_distribution,high_max,weigh_max,note,timestamps,image_url
+Lion,Panthera leo,Mammalia,Savanna,Sub-Saharan Africa,120,190,Known as the king of the jungle.,2024-07-22 11:28:24.085445,https://www.isoladeitesori.it/on/demandware.static/-/Sites-idt-it-Library/default/dweadaaed5/shutterstock_1657018297.jpg
+Elephant,Loxodonta africana,Mammalia,Forest,"Sub-Saharan Africa, South Asia",350,6000,The largest land animal.,2024-07-22 11:28:24.085454,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Afrikanischer_Elefant%2C_Zoo_Miami_1.jpg/1200px-Afrikanischer_Elefant%2C_Zoo_Miami_1.jpg
+Penguin,Aptenodytes forsteri,Aves,Antarctic,Antarctica,120,45,Flightless bird adapted to life in the water.,2024-07-22 11:28:24.085456,https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg
+Giraffe,Giraffa camelopardalis,Mammalia,Savanna,Sub-Saharan Africa,600,1600,Tallest living terrestrial animal.,2024-07-22 11:28:24.085457,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Giraffa_camelopardalis_reticulata.jpg/640px-Giraffa_camelopardalis_reticulata.jpg
+Koala,Phascolarctos cinereus,Mammalia,Forest,Eastern Australia,85,15,Marsupial native to Australia.,2024-07-22 11:28:24.085459,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfyfe_os6HzgTT5rbvtqo4h0otRO7RdV96g&s
+Polar Bear,Ursus maritimus,Mammalia,Arctic,Arctic Circle,160,700,Large bear native to the Arctic.,2024-07-22 11:28:24.085460,https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg
+Kangaroo,Macropus rufus,Mammalia,Savanna,Australia,200,90,Largest marsupial in the world.,2024-07-22 11:28:24.085461,https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kangaroo_and_joey05.jpg/800px-Kangaroo_and_joey05.jpg
+Tiger,Panthera tigris,Mammalia,Forest,Asia,120,310,The largest species of cat.,2024-07-22 11:28:24.085463,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Panthera_tigris_2.jpg/220px-Panthera_tigris_2.jpg
+Panda,Ailuropoda melanoleuca,Mammalia,Forest,Central China,90,160,Known for its distinctive black and white coloring.,2024-07-22 11:28:24.085464,https://www.nationalgeographic.it/upload/ngi-hero/cover-1695799828548-Panda.jpeg
+Bald Eagle,Haliaeetus leucocephalus,Aves,Forest,North America,100,6,National bird of the United States.,2024-07-22 11:28:24.085466,https://upload.wikimedia.org/wikipedia/commons/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg
+Wolf,Canis lupus,Mammalia,Forest,"North America, Eurasia",85,80,Social animals known to live in packs.,2024-07-22 11:28:24.085467,https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg
+Great White Shark,Carcharodon carcharias,Chondrichthyes,Ocean,Worldwide,600,1100,One of the largest predatory fish.,2024-07-22 11:28:24.085469,https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg
+Komodo Dragon,Varanus komodoensis,Reptilia,Forest,Indonesia,300,70,The largest living species of lizard.,2024-07-22 11:28:24.085470,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Varanus_komodoensis4.jpg/800px-Varanus_komodoensis4.jpg
+Hippopotamus,Hippopotamus amphibius,Mammalia,River,Sub-Saharan Africa,150,1500,Third-largest land mammal by weight.,2024-07-22 11:28:24.085472,https://safariravenna.it/wp-content/uploads/2024/03/ippopotamo-1.jpg
+Rhinoceros,Rhinocerotidae,Mammalia,Savanna,"Africa, South Asia",190,2300,Known for their large horns.,2024-07-22 11:28:24.085474,https://www.repstatic.it/content/nazionale/img/2020/06/16/201320950-49cc995c-45bf-4fed-8d74-6f76a0b4d421.jpg
+Gorilla,Gorilla beringei,Mammalia,Forest,Central Africa,180,220,Largest living primates.,2024-07-22 11:28:24.085476,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Male_silverback_Gorilla.JPG/640px-Male_silverback_Gorilla.JPG
+Cheetah,Acinonyx jubatus,Mammalia,Savanna,"Africa, Iran",90,65,Fastest land animal.,2024-07-22 11:28:24.085478,https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cheetah_at_Working_with_Wildlife.jpg/1200px-Cheetah_at_Working_with_Wildlife.jpg
+Orangutan,Pongo pygmaeus,Mammalia,Forest,"Borneo, Sumatra",150,100,Known for their intelligence and use of tools.,2024-07-22 11:28:24.085496,https://upload.wikimedia.org/wikipedia/commons/1/14/Orangutan_-Zoologischer_Garten_Berlin-8a.jpg
+Blue Whale,Balaenoptera musculus,Mammalia,Ocean,Worldwide,3000,200000,Largest animal known to have ever existed.,2024-07-22 11:28:24.085498,https://www.marinemammalcenter.org/storage/app/uploads/public/d60/299/459/thumb__1600_0_0_0_crop.jpg
+Red Panda,Ailurus fulgens,Mammalia,Forest,"Eastern Himalayas, Southwestern China",60,6,Known for their reddish-brown fur and bushy tails.,2024-07-22 11:28:24.085500,https://i.natgeofe.com/k/63b1a8a7-0081-493e-8b53-81d01261ab5d/red-panda-full-body_16x9.jpg?w=1200

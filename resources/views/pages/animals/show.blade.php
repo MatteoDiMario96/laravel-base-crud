@@ -5,6 +5,9 @@
 @section('main-content')
 <div class="card text-bg-light">
     <div class="card-header">Scientific name: {{$animal->scientific_name}}</div>
+        <div class="w-25">
+            <img src="{{$animal->image_url}}" class="card-img-top fluid" alt="...">
+        </div>
     <div class="card-body">
         <h5 class="card-title">Common name: {{$animal->common_name}}</h5>
         <strong><p class="card-text">Class:{{$animal->class}}</p></strong>
