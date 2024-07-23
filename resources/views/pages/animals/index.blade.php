@@ -3,6 +3,9 @@
 @section('title-page', 'Lista Animali')
 
 @section('main-content')
+<h1 class="text-center">
+    Lista Animali
+</h1>
 <table class="table table-success table-striped">
     <thead>
         <tr>
@@ -27,4 +30,8 @@
     </tr>
     @endforeach
 </table>
+
+<div class="row my-3">
+    <a href="{{route('pages.animals.create')}}" class="btn btn-info btn-xl col-12">Aggiungi alla lista un nuovo animale</a>
+</div>
 @endsection
