@@ -59,5 +59,3 @@
         <a href="{{route('pages.home')}}" class="btn btn-info">Torna alla Home</a>
     </footer>
 @endsection
-
-//CAMBIARE ID NAME DEGLI INPUT.
