@@ -1,4 +1,4 @@
-common_name,scientific_name,class,habitat,geographical_distribution,high_max,weigh_max,note,timestamps
+common_name,scientific_name,class,habitat,geographical_distribution,high_max,weigh_max,note,created_at
 Lion,Panthera leo,Mammalia,Savanna,Sub-Saharan Africa,120,190,Known as the king of the jungle.,2024-07-22 11:28:24.085445
 Elephant,Loxodonta africana,Mammalia,Forest,Sub-Saharan Africa,350,6000,The largest land animal.,2024-07-22 11:28:24.085454
 Penguin,Aptenodytes forsteri,Aves,Antarctic,Antarctica,120,45,Flightless bird adapted to life in the water.,2024-07-22 11:28:24.085456
