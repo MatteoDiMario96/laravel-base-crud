@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title-page', 'Template Creato!')
+@section('title-page', 'Home Animali')
 
 @section('main-content')
     <header class="m-5">
