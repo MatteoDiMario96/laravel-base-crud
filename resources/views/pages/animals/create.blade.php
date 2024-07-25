@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('script-js')
+    @vite('resources/js/create.js')
+@endsection
+
 @section('title-page', 'Aggiungi animale')
 
 @section('main-content')
@@ -9,7 +13,7 @@
         </h1>
     </header>
     <main class="m-5">
-        <form action="{{route('animals.store')}}" method="POST" class="row g-3">
+        <form action="{{route('animals.store')}}" method="POST" class="row g-3 form-create">
             @csrf
 
             <div class="col-md-6">
