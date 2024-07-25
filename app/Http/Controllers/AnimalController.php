@@ -49,14 +49,28 @@ class AnimalController extends Controller
         $data = $request->all();
 
         $animal->update($data);
-        return redirect(route('pages.animals.show', $animal));
+        return redirect(route('pages.animals.show', $animal))->with('edit-animal', $animal->common_name . ' '. 'has been edited with success');
 
 
     }
     public function destroy( Animals $animal ){;
         $animal->delete();
-        return redirect(route('pages.animals.index'));
+        return redirect()->route('pages.animals.index')->with('deleted-message', $animal->common_name . ' '. 'has been moved on the trash backet');
 
+    }
 
+    public function deletedIndex(){
+        $animals = Animals::onlyTrashed()->get();
+        return view('pages.animals.trash-index', compact('animals'));
+    }
+    public function restore(string $id){
+        $animal = Animals::onlyTrashed()->findOrFail($id);
+        $animal->restore();
+        return redirect()->route('pages.animals.trash-index')->with('deleted-message', $animal->common_name . ' '. 'has been restored');
+    }
+    public function permanentDelete(string $id){
+        $animal = Animals::onlyTrashed()->findOrFail($id);
+        $animal->forceDelete();
+        return redirect()->route('pages.animals.trash-index')->with('deleted-message', $animal->common_name . 'has been deleted by your trash backet.');;
     }
 }
