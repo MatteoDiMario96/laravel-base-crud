@@ -13,7 +13,7 @@
         </h1>
     </header>
     <main class="m-5 container d-flex justify-content-center align-items-center">
-        <form action="{{route('animals.update', $animal)}}" method="POST" class="row g-3 form-edit">
+        <form action="{{route('animals.update', $animal)}}" method="POST" class="row g-3 form-edit" data-animal-name="{{$animal->common_name}}">
             @csrf
             @method('PUT')
 
@@ -54,7 +54,7 @@
                 <input type="text" class="form-control" id="animal-note" name="note" value="{{$animal->note}}">
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-success">Genera!</button>
+                <button type="submit" class="btn btn-success">Edit {{$animal->common_name}}</button>
               </div>
 
         </form>
