@@ -9,6 +9,11 @@
 @section('main-content')
 <div class="card text-bg-light">
     <div class="card-header">Scientific name: {{$animal->scientific_name}}</div>
+        @if (session('edit-animal'))
+            <div class="alert alert-success">
+                {{session('edit-animal')}}
+            </div>
+        @endif
         <div class="w-25">
             <img src="{{$animal->image_url}}" class="card-img-top fluid" alt="...">
         </div>
