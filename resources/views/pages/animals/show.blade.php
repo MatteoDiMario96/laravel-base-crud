@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
-@section('title-page', 'Info {{$animal->common_name}}')
+@section('script-js')
+    @vite('resources/js/delete.js')
+@endsection
+
+@section('title-page', 'Info' . ' ' . $animal->common_name)
 
 @section('main-content')
 <div class="card text-bg-light">
@@ -16,8 +20,15 @@
         <strong><en><p class="card-text">High max:{{$animal->high_max}}</p></en></strong>
         <strong><en><p class="card-text">Weigh Max:{{$animal->weigh_max}}</p></en></strong>
         <p class="card-text">Note:{{$animal->note}}</p>
-        <a href="{{route('pages.animals.index')}}" class="btn btn-primary">Torna alla lista degli animali!</a>
-        <a href="{{route('pages.home')}}" class="btn btn-warning">Torna alla Home!</a>
+        <a href="{{route('pages.animals.edit', $animal)}}" class="btn btn-success">Edit {{$animal->common_name}}</a>
+        <form action="{{route('animals.destroy', $animal)}}" method="POST" class="d-inline-block forms-destroy">
+            @csrf
+            @method('DELETE')
+            <button class="btn btn-warning">
+                Delete  {{$animal->common_name}}
+            </button>
+        </form>
+        <a href="{{route('pages.animals.index')}}" class="btn btn-primary">Go back to the animal list</a>
     </div>
 
 @endsection
