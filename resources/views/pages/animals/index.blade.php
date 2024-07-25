@@ -10,7 +10,17 @@
 <h1 class="text-center">
     Lista Animali
 </h1>
-<table class="table table-success table-striped">
+<div>
+    <div>
+        @if (@session('deleted-message'))
+            <div class="alert alert-success">
+                {{session('deleted-message')}}
+                <a href="{{route('pages.animals.trash-index')}}">See the trash backet</a>
+            </div>
+        @endif
+    </div>
+</div>
+<table class="table table-info table-striped">
     <thead>
         <tr>
             <th scope="col">ID</th>
@@ -23,17 +33,19 @@
         </tr>
     </thead>
     <tbody class="table-group-divider">
-    @foreach ($animals as $singleAnimal)
+    @foreach ($animals as $animal)
+
+
     <tr>
-        <th scope="row">{{$singleAnimal->id}}</th>
-        <td>{{$singleAnimal->common_name}}</td>
-        <td>{{$singleAnimal->scientific_name}}</td>
-        <td>{{$singleAnimal->class}}</td>
-        <td>{{$singleAnimal->habitat}}</td>
+        <th scope="row">{{$animal->id}}</th>
+        <td>{{$animal->common_name}}</td>
+        <td>{{$animal->scientific_name}}</td>
+        <td>{{$animal->class}}</td>
+        <td>{{$animal->habitat}}</td>
         <td class="text-center">
-            <a href="{{route('pages.animals.show', $singleAnimal)}}" class="btn btn-info btn-sm m-2">Details</a>
-            <a href="{{route('pages.animals.edit', $singleAnimal)}}" class="btn btn-success btn-sm m-2">Edit</a>
-            <form action="{{route('animals.destroy', $singleAnimal)}}" method="POST" class="d-inline-block forms-destroy">
+            <a href="{{route('pages.animals.show', $animal)}}" class="btn btn-info btn-sm m-2">Details</a>
+            <a href="{{route('pages.animals.edit', $animal)}}" class="btn btn-success btn-sm m-2">Edit</a>
+            <form action="{{route('animals.destroy', $animal)}}" method="POST" class="d-inline-block forms-destroy" data-animal-name="{{$animal->common_name}}">
                 @csrf
                 @method('DELETE')
                 <button class="btn btn-warning btn-sm m-2">
