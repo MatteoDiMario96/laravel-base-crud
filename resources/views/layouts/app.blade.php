@@ -12,5 +12,7 @@
 </head>
 <body>
     @yield('main-content')
+
+    @yield('script-js')
 </body>
 </html>
